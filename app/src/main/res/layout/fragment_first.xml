@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_gray"
+    tools:context=".FirstFragment">
+
+
+    <TextView
+        android:id="@+id/tv_first_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_0"
+        android:textColor="@color/bright_blue"
+        android:textSize="64sp"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_plus"
+        style="@style/Base.Button"
+        android:text="@string/btn_1"
+        android:gravity="center"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_mines"
+        style="@style/Base.Button"
+        android:text="@string/btn_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bnt_go"
+        style="@style/Go.Button"
+        android:text="@string/btn_3"
+        />
+
+</LinearLayout>
